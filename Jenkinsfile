@@ -1,4 +1,4 @@
-node ('master') {
+node('master') {
     stage('Checkout') {
         echo 'Shared stage'
 
